@@ -4,3 +4,4 @@ npx create-next-app@latest nombre-del-proyecto
 
 npm install
 
+--
