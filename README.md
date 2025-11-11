@@ -78,3 +78,36 @@ Instala estas extensiones para una mejor experiencia de desarrollo:
 ---
 
 ¡Feliz desarrollo! 🎉
+
+Paso 1: Crear proyecto Next.js 15
+# Crear proyecto con create-next-app
+npx create-next-app@latest qr-audio-video
+
+# Opciones a seleccionar:
+# ✔ Would you like to use TypeScript? … Yes
+# ✔ Would you like to use ESLint? … Yes
+# ✔ Would you like to use Tailwind CSS? … Yes
+# ✔ Would you like to use `src/` directory? … No
+# ✔ Would you like to use App Router? … Yes
+# ✔ Would you like to customize the default import alias? … No
+
+cd qr-audio-video
+
+Paso 2: Instalar dependencias adicionales
+ 
+# Dependencias de producción
+npm install @supabase/supabase-js
+npm install zod
+npm install zustand
+npm install @tanstack/react-query
+npm install react-hook-form @hookform/resolvers
+npm install qrcode
+npm install sharp
+npm install lucide-react
+npm install clsx tailwind-merge
+
+# Dependencias de desarrollo
+npm install -D @types/node
+npm install -D @types/qrcode
+npm install -D prettier prettier-plugin-tailwindcss
+
