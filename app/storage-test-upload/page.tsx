@@ -58,7 +58,7 @@ export default function StorageTestPage() {
             <p className="font-semibold mb-2">💡 Instrucciones:</p>
             <ol className="list-decimal list-inside space-y-1">
               <li>
-                Click en "Ejecutar Test GET" para subir un archivo de prueba
+                Click en Ejecutar Test GET para subir un archivo de prueba
               </li>
               <li>O selecciona cualquier archivo y súbelo</li>
               <li>Verifica en Cloudflare R2 que el archivo se subió</li>
